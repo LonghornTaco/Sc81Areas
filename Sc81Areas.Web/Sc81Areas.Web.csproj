@@ -49,6 +49,12 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\inetpub\wwwroot\Sitecore\Sc81Areas\Website\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\..\inetpub\wwwroot\Sitecore\Sc81Areas\Website\bin\Sitecore.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -120,7 +126,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Areas\Site1\Site1AreaRegistration.cs" />
+    <Compile Include="Areas\Site2\Site2AreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -137,6 +144,10 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="App_Config\ConnectionStrings.config" />
     <Content Include="App_Config\Include\Sc81Areas\Sc81Areas.Site.config" />
+    <Content Include="Areas\Site1\Views\web.config" />
+    <Content Include="Areas\Site2\Views\web.config" />
+    <Content Include="Areas\Site1\Views\Shared\Site1DefaultLayout.cshtml" />
+    <Content Include="Areas\Site2\Views\Shared\Site2DefaultLayout.cshtml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -158,16 +169,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Site1\Controllers\" />
+    <Folder Include="Areas\Site1\Models\" />
+    <Folder Include="Areas\Site2\Controllers\" />
+    <Folder Include="Areas\Site2\Models\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

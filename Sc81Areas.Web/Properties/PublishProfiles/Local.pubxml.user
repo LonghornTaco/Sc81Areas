@@ -10,10 +10,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Config/ConnectionStrings.config">
-      <publishTime>10/25/2015 19:08:20</publishTime>
+      <publishTime>10/25/2015 19:13:04</publishTime>
     </File>
     <File Include="App_Config/Include/Sc81Areas/Sc81Areas.Site.config">
-      <publishTime>10/25/2015 19:11:29</publishTime>
+      <publishTime>10/26/2015 00:09:29</publishTime>
+    </File>
+    <File Include="Areas/Site1/Views/Shared/Site1DefaultLayout.cshtml">
+      <publishTime>10/25/2015 23:04:15</publishTime>
+    </File>
+    <File Include="Areas/Site1/Views/Site1Components/Site1Component.cshtml">
+      <publishTime>10/25/2015 22:22:39</publishTime>
+    </File>
+    <File Include="Areas/Site1/Views/web.config">
+      <publishTime>10/25/2015 21:39:04</publishTime>
+    </File>
+    <File Include="Areas/Site2/Views/Shared/Site2DefaultLayout.cshtml">
+      <publishTime>10/25/2015 23:07:51</publishTime>
+    </File>
+    <File Include="Areas/Site2/Views/web.config">
+      <publishTime>10/25/2015 21:39:02</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>10/25/2015 18:23:29</publishTime>
@@ -21,14 +36,35 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.pdb">
       <publishTime>10/25/2015 18:23:29</publishTime>
     </File>
+    <File Include="bin/ComponentArt.Web.UI.dll">
+      <publishTime>10/25/2015 18:06:12</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>10/25/2015 18:06:12</publishTime>
+    </File>
+    <File Include="bin/ITHit.WebDAV.Server.dll">
+      <publishTime>10/25/2015 18:06:12</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>10/25/2015 18:06:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AnalysisServices.AdomdClient.dll">
+      <publishTime>08/23/2014 03:52:56</publishTime>
+    </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>10/25/2015 18:23:30</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>10/25/2015 18:23:28</publishTime>
     </File>
+    <File Include="bin/Mvp.Xml.dll">
+      <publishTime>10/25/2015 18:06:13</publishTime>
+    </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>10/25/2015 18:23:29</publishTime>
+    </File>
+    <File Include="bin/RadEditor.Net2.dll">
+      <publishTime>10/25/2015 18:06:13</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>10/25/2015 18:23:30</publishTime>
@@ -67,10 +103,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/25/2015 18:23:30</publishTime>
     </File>
     <File Include="bin/Sc81Areas.Web.dll">
-      <publishTime>10/25/2015 18:56:14</publishTime>
+      <publishTime>10/26/2015 00:09:30</publishTime>
     </File>
     <File Include="bin/Sc81Areas.Web.pdb">
-      <publishTime>10/25/2015 18:56:14</publishTime>
+      <publishTime>10/26/2015 00:09:30</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>10/25/2015 18:06:14</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.Client.dll">
+      <publishTime>10/25/2015 18:06:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>10/25/2015 18:06:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>10/25/2015 18:06:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>10/25/2015 18:06:15</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>10/25/2015 18:06:16</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>10/25/2015 18:23:28</publishTime>
@@ -92,6 +146,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
       <publishTime>10/25/2015 18:23:28</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>10/25/2015 18:06:17</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>10/25/2015 18:23:29</publishTime>
